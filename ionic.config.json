@@ -1,0 +1,7 @@
+{
+  "name": "comunityApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
