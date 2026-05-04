@@ -249,7 +249,7 @@ const navigateToChat = () => {
 
 <style scoped>
 .detail-banner {
-  background: var(--app-yellow);
+  background: var(--app-primary);
   padding: 16px 22px 14px;
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;

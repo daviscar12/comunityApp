@@ -92,7 +92,7 @@ const navigateTo = async (path: string) => {
 .menu-top-shape {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(93, 152, 204, 0.95), rgba(71, 122, 170, 0.95));
+  background: linear-gradient(180deg, rgba(var(--app-primary-rgb), 0.95), rgba(var(--app-primary-rgb), 0.75));
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 10px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.14);
@@ -110,20 +110,29 @@ const navigateTo = async (path: string) => {
   background: rgba(255, 255, 255, 0.96);
   border-radius: 24px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+  flex-wrap: wrap;
 }
 
 .menu-avatar {
   width: 76px;
   height: 76px;
+  min-width: 76px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #ffffff;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
+.menu-user-info {
+  flex: 1;
+  min-width: 0;
+}
+
 .menu-user-info h3,
 .menu-user-info p {
   margin: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .menu-user-info h3 {
@@ -167,7 +176,7 @@ const navigateTo = async (path: string) => {
 }
 
 .menu-item:hover {
-  background: rgba(93, 152, 204, 0.08);
+  background: rgba(var(--app-primary-rgb), 0.08);
 }
 
 .menu-footer {
