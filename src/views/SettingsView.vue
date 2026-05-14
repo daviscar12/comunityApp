@@ -197,7 +197,7 @@ const handlePhotoChange = (event: Event) => {
 
 const removePhoto = () => {
   user.photo =
-    'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=300&auto=format&fit=crop'
+    'https://tse2.mm.bing.net/th/id/OIP.B-An5i5YsM9bmL3amzSBXQAAAA?w=416&h=416&rs=1&pid=ImgDetMain&o=7&rm=3'
   saveUser()
 }
 

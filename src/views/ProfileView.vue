@@ -23,7 +23,7 @@
                 />
 
               <h3 style="margin: 0; font-size: 24px; font-weight: 700;">{{ user.name }}</h3>
-                  <p class="event-meta" style="margin: 0;">{{ user.email }}</p>
+                  <p class="event-meta" style="margin: 0;">{{ user.email || 'Email não informado' }}</p>
                   <p class="event-meta" style="margin: 0;">{{ user.phone || 'Telefone não informado' }}</p>
             </div>
 

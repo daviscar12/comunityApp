@@ -11,7 +11,7 @@ export interface UserData {
 
 const defaultUser: UserData = {
   name: 'Usuario',
-  email: 'Uuario@email.com',
+  email: '',
   password: '12345678',
   phone: '',
   photo: 'https://tse2.mm.bing.net/th/id/OIP.B-An5i5YsM9bmL3amzSBXQAAAA?w=416&h=416&rs=1&pid=ImgDetMain&o=7&rm=3',
